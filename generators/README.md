@@ -1,0 +1,1 @@
+Generators define formulas for things that aren't interesting on their own. This is primarily good for short text replacements. If the ˜
