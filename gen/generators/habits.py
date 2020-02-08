@@ -1,3 +1,5 @@
+import random
+
 habits = [
     "lies for fun",
     "vegetarian",
@@ -30,3 +32,6 @@ habits = [
     "owns a pet",
     "works out"
 ]
+
+def generate():
+    return random.sample(habits, random.randint(3,5)).join(', ')

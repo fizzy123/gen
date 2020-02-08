@@ -1,3 +1,5 @@
+import random
+
 priorities = [
     "friends",
     "family",
@@ -13,3 +15,6 @@ priorities = [
     "empathy",
     "appearance"
 ]
+
+def generate():
+    return random.sample(priorities, likes, random.randint(1,3))

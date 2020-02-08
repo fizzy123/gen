@@ -1,3 +1,5 @@
+import random
+
 likes = [
   "music",
   "cute things",
@@ -28,3 +30,6 @@ likes = [
   "rain",
   "parties"
 ]
+
+def generate():
+    return random.sample(likes, random.randint(1, 5)).join(", ")

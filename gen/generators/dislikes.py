@@ -1,3 +1,5 @@
+import random
+
 dislikes = [
     "popular stuff",
     "coffee",
@@ -9,3 +11,6 @@ dislikes = [
     "phone calls",
     "insects"
 ]
+
+def generate():
+    return random.sample(dislikes, random.randint(1, 5)).join(", ")
